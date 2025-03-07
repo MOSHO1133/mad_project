@@ -2,7 +2,7 @@ import 'dart:async';
 
 Future<String> fetchWeatherData() async {
   await Future.delayed(Duration(seconds: 3));
-  return "Wednesday, 25°C";
+  return "Friday, 25°C";
 }
 
 void main() async {
